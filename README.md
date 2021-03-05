@@ -1,8 +1,8 @@
-# PHP enums for Laravel models 🆔
+# PHP enums for Laravel models 📚
 
-[![Latest version](https://img.shields.io/packagist/v/desmart/laravel-uuid-id.svg?style=flat)](https://github.com/DeSmart/laravel-uuid-id)
-![Tests](https://github.com/desmart/laravel-uuid-id/workflows/Run%20Tests/badge.svg)
-[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/DeSmart/laravel-uuid-id/blob/master/LICENSE)
+[![Latest version](https://img.shields.io/packagist/v/desmart/laravel-enum.svg?style=flat)](https://github.com/DeSmart/laravel-enum)
+![Tests](https://github.com/desmart/laravel-enum/workflows/Run%20Tests/badge.svg)
+[![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg)](https://github.com/DeSmart/laravel-enum/blob/master/LICENSE)
 
 Package provides a simple trait that allows to use/generate UUIDs as IDs in Laravel models.
 

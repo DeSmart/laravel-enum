@@ -1,0 +1,42 @@
+{
+    "name": "desmart/laravel-enum",
+    "type": "library",
+    "description": "PHP enums for Laravel models",
+    "license": "MIT",
+    "keywords": ["desmart", "laravel", "model" ,"php", "enum", "enums", "enumeration"],
+    "authors": [
+        {
+            "name": "Michał Golon",
+            "email": "gollum@desmart.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "desmart/php-enum": "^1.0",
+        "illuminate/contracts": "^8.12",
+        "illuminate/database": "^8.12",
+        "illuminate/support": "^8.12"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.3.3"
+    },
+    "autoload": {
+        "psr-4": {
+            "DeSmart\\Laravel\\Enumeration\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "DeSmart\\Laravel\\Enumeration\\Tests\\": "tests/"
+        }
+    },
+    "config": {
+        "optimize-autoloader": true,
+        "preferred-install": "dist",
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}

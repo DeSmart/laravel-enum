@@ -61,7 +61,7 @@ dump($hero);
 
 dump($hero->character);
 // Character {#296
-//  -value: "good"
+//  -value: "evil"
 // }
 ```
 ## Changelog

@@ -64,6 +64,34 @@ dump($hero->character);
 //  -value: "evil"
 // }
 ```
+
+### Enumeration class generation
+
+Package provides `make:enum` Artisan command for enumeration classes auto-generation. To generate new enum class, run:
+```php
+php artisan make:enum Character --cases='good,evil,sometimes_good_sometimes_evil'
+```
+> `--cases` (or `-c`) option allows defining available enum cases. Command can be run without that option specified.
+
+Above command will create a new class inside `Enums` directory:
+```php
+namespace App\Enums;
+
+use DeSmart\Laravel\Enumeration\Enumeration;
+
+/**
+ * @method static Character good()
+ * @method static Character evil()
+ * @method static Character sometimesGoodSometimesEvil()
+ */
+class Character extends Enumeration
+{
+	const GOOD = 'good';
+	const EVIL = 'evil';
+	const SOMETIMES_GOOD_SOMETIMES_EVIL = 'sometimes_good_sometimes_evil';
+}
+```
+
 ## Changelog
 
 Please see [CHANGELOG](CHANGELOG.md) for more information what has changed recently.
